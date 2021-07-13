@@ -8,7 +8,7 @@ class App extends React.Component {
         return (
             <div>
                 <p>
-                    No React?
+                    React!
                 </p>
                 <p>
                     Segundo Paragrafo
