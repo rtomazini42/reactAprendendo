@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Formulario from './components/Formulario';
+import App5 from './components/App5';
+import {Lista, Item} from './components/Lista';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-        <Formulario title="Titulo">
+        <App5 title="Titulo">
             Conteudo?
-        </Formulario>
+        </App5>
+        <Lista title="Titulo">
+            Conteudo?
+        </Lista>
   </React.StrictMode>,
     document.getElementById('root')
 
